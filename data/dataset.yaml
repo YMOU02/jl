@@ -1,0 +1,6 @@
+path: D:\labeled data\3000\labelme_output\YOLODataset
+train: labels/train
+val: labels/val
+test:
+nc: 3                # 类别数量=3（hands up/look book/writ）
+names: ['hands up', 'look book', 'writ']  # 列表格式，顺序对应class_id 0/1/2
